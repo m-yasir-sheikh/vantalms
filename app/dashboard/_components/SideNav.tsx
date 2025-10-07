@@ -103,7 +103,7 @@ function SideNav({ isOpen, toggleSidebar }: SideNavProps) {
     <div className="flex flex-col h-full">
       {/* Logo section */}
       <div className="flex justify-between items-center mb-2">
-        <Image src="/logo.svg" alt="logo" width={150} height={150} />
+        {/* <Image src="/logo.svg" alt="logo" width={150} height={150} /> */}
         {isMobile && (
           <button
             onClick={toggleSidebar}
