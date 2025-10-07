@@ -21,9 +21,9 @@ function Header() {
         aria-label="Global"
       >
         <div className="flex items-center justify-between">
-          {/* <div>
-            <Image src={"/logo.svg"} alt="logo" width={100} height={100} />
-          </div> */}
+          <div>
+            <Image src={"/logo.svg"} alt="logo" width={150} height={100} />
+          </div>
           <button
             onClick={toggleMenu}
             className="sm:hidden text-gray-500 hover:text-gray-600 focus:outline-none"
