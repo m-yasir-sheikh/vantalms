@@ -7,7 +7,7 @@ function Pricing() {
       <div className="mt-5 max-w-2xl text-center mx-auto">
         <h1 className="block font-bold text-gray-800 text-4xl md:text-5xl lg:text-6xl dark:text-neutral-200">
           Our
-          <span className="bg-clip-text bg-gradient-to-tl from-green-600 to-zinc-600 text-transparent">
+          <span className="bg-clip-text bg-gradient-to-tl from-primary to-zinc-600 text-transparent">
             {" "}
             Pricing
           </span>
@@ -38,7 +38,7 @@ function Pricing() {
           <ul className="mt-7 space-y-2.5 text-sm">
             <li className="flex gap-x-2">
               <svg
-                className="shrink-0 mt-0.5 size-4 text-green-600 dark:text-green-500"
+                className="shrink-0 mt-0.5 size-4 text-primary dark:text-green-500"
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"
                 height="24"
@@ -58,7 +58,7 @@ function Pricing() {
 
             <li className="flex gap-x-2">
               <svg
-                className="shrink-0 mt-0.5 size-4 text-green-600 dark:text-green-500"
+                className="shrink-0 mt-0.5 size-4 text-primary dark:text-green-500"
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"
                 height="24"
@@ -78,7 +78,7 @@ function Pricing() {
 
             <li className="flex gap-x-2">
               <svg
-                className="shrink-0 mt-0.5 size-4 text-green-600 dark:text-green-500"
+                className="shrink-0 mt-0.5 size-4 text-primary dark:text-green-500"
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"
                 height="24"
@@ -107,9 +107,9 @@ function Pricing() {
         {/* <!-- End Card --> */}
 
         {/* <!-- Card --> */}
-        <div className="flex flex-col border-2 border-green-600 text-center shadow-xl rounded-xl p-8 dark:border-green-700">
+        <div className="flex flex-col border-2 border-primary text-center shadow-xl rounded-xl p-8 dark:border-green-700">
           <p className="mb-3">
-            <span className="inline-flex items-center gap-1.5 py-1.5 px-3 rounded-lg text-xs uppercase font-semibold bg-green-100 text-green-800 dark:bg-green-600 dark:text-white">
+            <span className="inline-flex items-center gap-1.5 py-1.5 px-3 rounded-lg text-xs uppercase font-semibold bg-green-100 text-green-800 dark:bg-primary dark:text-white">
               Most popular
             </span>
           </p>
@@ -126,7 +126,7 @@ function Pricing() {
           <ul className="mt-7 space-y-2.5 text-sm">
             <li className="flex gap-x-2">
               <svg
-                className="shrink-0 mt-0.5 size-4 text-green-600 dark:text-green-500"
+                className="shrink-0 mt-0.5 size-4 text-primary dark:text-green-500"
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"
                 height="24"
@@ -146,7 +146,7 @@ function Pricing() {
 
             <li className="flex gap-x-2">
               <svg
-                className="shrink-0 mt-0.5 size-4 text-green-600 dark:text-green-500"
+                className="shrink-0 mt-0.5 size-4 text-primary dark:text-green-500"
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"
                 height="24"
@@ -166,7 +166,7 @@ function Pricing() {
 
             <li className="flex gap-x-2">
               <svg
-                className="shrink-0 mt-0.5 size-4 text-green-600 dark:text-green-500"
+                className="shrink-0 mt-0.5 size-4 text-primary dark:text-green-500"
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"
                 height="24"
@@ -186,7 +186,7 @@ function Pricing() {
           </ul>
 
           <a
-            className="mt-5 py-3 px-4 inline-flex justify-center items-center gap-x-2 text-sm font-medium rounded-lg border border-transparent bg-green-600 text-white hover:bg-green-700 focus:outline-none focus:bg-green-700 disabled:opacity-50 disabled:pointer-events-none"
+            className="mt-5 py-3 px-4 inline-flex justify-center items-center gap-x-2 text-sm font-medium rounded-lg border border-transparent bg-primary text-white hover:bg-green-700 focus:outline-none focus:bg-green-700 disabled:opacity-50 disabled:pointer-events-none"
             href="/dashboard"
           >
             Sign up

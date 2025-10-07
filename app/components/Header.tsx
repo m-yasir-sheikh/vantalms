@@ -21,9 +21,9 @@ function Header() {
         aria-label="Global"
       >
         <div className="flex items-center justify-between">
-          <div>
+          {/* <div>
             <Image src={"/logo.svg"} alt="logo" width={100} height={100} />
-          </div>
+          </div> */}
           <button
             onClick={toggleMenu}
             className="sm:hidden text-gray-500 hover:text-gray-600 focus:outline-none"
@@ -37,14 +37,14 @@ function Header() {
           <div className="flex flex-col sm:flex-row sm:items-center sm:justify-end sm:ps-7">
             <Link
               href="/documentation/intro"
-              className="flex items-center gap-x-2 font-medium text-gray-500 transition-colors duration-300 hover:text-green-600 py-2 sm:py-0 sm:ms-4 sm:my-6 sm:ps-6 dark:text-neutral-400 dark:hover:text-primary"
+              className="flex items-center gap-x-2 font-medium text-gray-500 transition-colors duration-300 hover:text-primary py-2 sm:py-0 sm:ms-4 sm:my-6 sm:ps-6 dark:text-neutral-400 dark:hover:text-primary"
             >
               <BookText size={16} />
               <div>Documentation</div>
             </Link>
             <Link
               href="/dashboard"
-              className="flex items-center gap-x-2 font-medium text-gray-500 transition-colors duration-300 hover:text-green-600 sm:border-s sm:border-gray-300 py-2 sm:py-0 sm:ms-4 sm:my-6 sm:ps-6 dark:border-neutral-700 dark:text-neutral-400 dark:hover:text-primary"
+              className="flex items-center gap-x-2 font-medium text-gray-500 transition-colors duration-300 hover:text-primary sm:border-s sm:border-gray-300 py-2 sm:py-0 sm:ms-4 sm:my-6 sm:ps-6 dark:border-neutral-700 dark:text-neutral-400 dark:hover:text-primary"
             >
               <svg
                 className="flex-shrink-0 size-4"
@@ -94,7 +94,7 @@ function Header() {
                   <div className="flex flex-col space-y-6">
                     <Link
                       href="/documentation/intro"
-                      className="flex items-center gap-x-2 font-medium text-gray-700 hover:text-green-600 dark:text-neutral-300"
+                      className="flex items-center gap-x-2 font-medium text-gray-700 hover:text-primary dark:text-neutral-300"
                       onClick={toggleMenu}
                     >
                       <BookText size={16} />
@@ -102,7 +102,7 @@ function Header() {
                     </Link>
                     <Link
                       href="/dashboard"
-                      className="flex items-center gap-x-2 font-medium text-gray-700 hover:text-green-600 dark:text-neutral-300"
+                      className="flex items-center gap-x-2 font-medium text-gray-700 hover:text-primary dark:text-neutral-300"
                       onClick={toggleMenu}
                     >
                       <svg

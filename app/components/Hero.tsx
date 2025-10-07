@@ -64,10 +64,7 @@ function Hero() {
             transition={{ duration: 2, ease: "easeInOut" }}
           >
             <h1 className="block font-bold text-gray-800 text-4xl md:text-5xl lg:text-6xl dark:text-neutral-200">
-              Study
-              <span className="bg-clip-text bg-gradient-to-tl from-green-600 to-zinc-600 text-transparent">
-                Studio
-              </span>
+              Meet your tutor
             </h1>
           </motion.div>
 
@@ -97,8 +94,8 @@ function Hero() {
           >
             <a
               className="inline-flex justify-center items-center 
-              gap-x-3 text-center bg-gradient-to-tl from-green-600
-              to-zinc-600 hover:from-zinc-600 hover:to-green-600 border border-transparent text-white text-sm font-medium rounded-md focus:outline-none focus:ring-1 focus:ring-gray-600 py-3 px-4 dark:focus:ring-offset-gray-800"
+              gap-x-3 text-center bg-gradient-to-tl from-primary
+              to-zinc-600 hover:from-zinc-600 hover:to-primary border border-transparent text-white text-sm font-medium rounded-md focus:outline-none focus:ring-1 focus:ring-gray-600 py-3 px-4 dark:focus:ring-offset-gray-800"
               href="/dashboard"
             >
               Get started
@@ -158,7 +155,7 @@ function Hero() {
               <p className="mt-1 text-gray-600 dark:text-neutral-400">
                 Access a vast library of AI subject templates.
               </p>
-              <span className="mt-2 inline-flex items-center gap-x-1.5 text-sm text-green-600 decoration-2 group-hover:underline font-medium">
+              <span className="mt-2 inline-flex items-center gap-x-1.5 text-sm text-primary decoration-2 group-hover:underline font-medium">
                 Learn more
                 <svg
                   className="flex-shrink-0 size-4"
@@ -208,7 +205,7 @@ function Hero() {
               <p className="mt-1 text-gray-600 dark:text-neutral-400">
                 24/7 AI tutoring, tailored to your needs.
               </p>
-              <span className="mt-2 inline-flex items-center gap-x-1.5 text-sm text-green-600 decoration-2 group-hover:underline font-medium">
+              <span className="mt-2 inline-flex items-center gap-x-1.5 text-sm text-primary decoration-2 group-hover:underline font-medium">
                 Learn more
                 <svg
                   className="flex-shrink-0 size-4"
@@ -256,7 +253,7 @@ function Hero() {
               <p className="mt-1 text-gray-600 dark:text-neutral-400">
                 Upgrade to unlock premium features.
               </p>
-              <span className="mt-2 inline-flex items-center gap-x-1.5 text-sm text-green-600 decoration-2 group-hover:underline font-medium">
+              <span className="mt-2 inline-flex items-center gap-x-1.5 text-sm text-primary decoration-2 group-hover:underline font-medium">
                 Learn more
                 <svg
                   className="flex-shrink-0 size-4"
@@ -304,7 +301,7 @@ function Hero() {
               <p className="mt-1 text-gray-600 dark:text-neutral-400">
                 Contact us 24 hours a day, 7 days a week.
               </p>
-              <span className="mt-2 inline-flex items-center gap-x-1.5 text-sm text-green-600 decoration-2 group-hover:underline font-medium">
+              <span className="mt-2 inline-flex items-center gap-x-1.5 text-sm text-primary decoration-2 group-hover:underline font-medium">
                 Learn more
                 <svg
                   className="flex-shrink-0 size-4"

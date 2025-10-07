@@ -222,7 +222,7 @@ function CookiesBanner() {
               <p className="text-sm text-gray-800 dark:text-neutral-200">
                 By browsing this website, you accept our{" "}
                 <a
-                  className="inline-flex items-center gap-x-1.5 text-green-600 decoration-2 hover:underline focus:outline-none focus:underline font-medium dark:text-blue-500"
+                  className="inline-flex items-center gap-x-1.5 text-primary decoration-2 hover:underline focus:outline-none focus:underline font-medium dark:text-blue-500"
                   href="#"
                   onClick={(e) => {
                     e.preventDefault();

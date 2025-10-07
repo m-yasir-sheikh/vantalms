@@ -9,7 +9,7 @@ function Faq() {
           <div className="max-w-xs">
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold md:leading-tight dark:text-white">
               FAQ
-              <span className="bg-clip-text bg-gradient-to-tl from-green-600 to-zinc-600 text-transparent">
+              <span className="bg-clip-text bg-gradient-to-tl from-primary to-zinc-600 text-transparent">
                 S
               </span>
             </h1>

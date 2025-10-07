@@ -6,7 +6,7 @@ function Subscribe() {
       <div className="mt-5 max-w-2xl text-center mx-auto px-4">
         <h1 className="block font-bold text-gray-800 text-3xl md:text-4xl lg:text-6xl dark:text-neutral-200">
           Subscribe
-          <span className="bg-clip-text bg-gradient-to-tl from-green-600 to-zinc-600 text-transparent">
+          <span className="bg-clip-text bg-gradient-to-tl from-primary to-zinc-600 text-transparent">
             {" "}
             Now
           </span>

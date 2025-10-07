@@ -14,7 +14,7 @@ function Footer() {
             aria-label="Brand"
           >
             Study
-            <span className="bg-clip-text bg-gradient-to-tl from-green-600 to-zinc-600 text-transparent">
+            <span className="bg-clip-text bg-gradient-to-tl from-primary to-zinc-600 text-transparent">
               Studio
             </span>
           </a>
