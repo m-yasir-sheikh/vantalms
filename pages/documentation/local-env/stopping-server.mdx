@@ -1,0 +1,12 @@
+## How To Stop Framecast AI?
+
+To stop Framecast AI, Simply pressing `Ctrl + C` in the terminal where the server is running won't do the trick. In
+order to fully stop the server you need to open up another terminal and run the following command:
+
+```json filename="terminal" copy
+npx supabase stop framecast-ai
+```
+
+This will stop the Supabase server and you will no longer be able to access the backend. Once you've done that, you
+can move to the terminal hosting your `Localhost server` and press `Ctrl + C` to stop the server. This completely
+stops every running service and now you won't be able to access the application.

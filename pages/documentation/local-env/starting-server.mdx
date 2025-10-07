@@ -1,0 +1,36 @@
+## Running Framecast AI
+
+import { Callout } from "nextra/components";
+
+<Callout type="warning">
+  Please make sure that the previous servers such as Docker are running on your
+  terminal.
+</Callout>
+
+The moment you've been waiting for. Let's run Framecast AI locally. If you have followed all of the previous steps
+correctly as mentioned in the documentation, you should be able to run Framecast AI locally without any issues. To run
+Framecast AI locally, use the following command:
+
+import { Tabs } from "nextra/components";
+
+{/* prettier-ignore */}
+<Tabs items={["npm", "yarn"]} defaultIndex="0">
+  <Tabs.Tab>
+  ```json filename="Terminal" copy
+   npm run dev
+   ```
+   </Tabs.Tab>
+  <Tabs.Tab >
+   ```json filename="Terminal" copy
+   yarn dev
+   ```
+  </Tabs.Tab>
+</Tabs>
+
+This command will start the server and show a localized version of [Framecast AI](http://localhost:3000) running
+in your browser.
+
+<figure>
+  {/* <>![Framecast AI](../../../assets/docs/18.png)</> */}
+  <figcaption>Framecast AI running locally on a local machine.</figcaption>
+</figure>
