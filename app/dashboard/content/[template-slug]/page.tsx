@@ -61,7 +61,6 @@ function CreateContentSection(props: PROPS) {
     setLoading(true);
     const selectedPrompt = selectedTemplate?.aiPrompt;
     const FinalAIPrompt = JSON.stringify(formData) + ", " + selectedPrompt;
-
     const result = await chatSession.sendMessage(FinalAIPrompt);
 
     setAiOutput(result?.response.text());

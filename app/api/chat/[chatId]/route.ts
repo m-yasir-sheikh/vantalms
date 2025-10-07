@@ -10,8 +10,7 @@ import { rateLimit } from "@/lib/rate-limit";
 import { db } from "@/utils/db";
 import { Tutor, Message } from "@/utils/schema";
 import { eq } from "drizzle-orm";
-
-const apiKey = process.env.GOOGLE_GEMINI_API_KEY;
+const apiKey = process.env.NEXT_PUBLIC_GOOGLE_GEMINI_API_KEY;
 const genAI = new GoogleGenerativeAI(apiKey!);
 
 export async function POST(
@@ -75,7 +74,7 @@ export async function POST(
     const tutorKey: TutorKey = {
       tutorName: tutorData.name ?? "Unknown Tutor",
       userId: user.id,
-      modelName: process.env.GOOGLE_GEMINI_MODEL || "gemini-2.5-flash",
+      modelName: process.env.NEXT_PUBLIC_GOOGLE_GEMINI_MODEL || "gemini-2.5-flash",
     };
 
     const memoryManager = await MemoryManager.getInstance();
@@ -95,7 +94,7 @@ export async function POST(
     }
 
     // Initialize Gemini model
-    const model = genAI.getGenerativeModel({ model: process.env.GOOGLE_GEMINI_MODEL || "gemini-2.5-flash" });
+    const model = genAI.getGenerativeModel({ model: process.env.NEXT_PUBLIC_GOOGLE_GEMINI_MODEL || "gemini-2.5-flash" });
 
     const chatSession = model.startChat({
       history: [
