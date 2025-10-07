@@ -27,7 +27,7 @@ export class MemoryManager {
     const pineconeIndex = pineconeClient.Index(process.env.PINECONE_INDEX!);
 
     const embeddings = new GoogleGenerativeAIEmbeddings({
-      apiKey: process.env.NEXT_PUBLIC_GOOGLE_GEMINI_API_KEY!,
+      apiKey: process.env.GOOGLE_GEMINI_API_KEY!,
       model: "text-embedding-004",
       taskType: TaskType.RETRIEVAL_DOCUMENT,
       title: "Chat History",
